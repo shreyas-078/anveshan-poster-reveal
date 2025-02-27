@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anveshan Poster Reveal</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename = 'assets/logos/anveshan_1_1.png') }}"
+    type="image/x-icon">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/background.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/footerStyles.css') }}">
+  <script src="{{ url_for('static', filename = 'js/particles.min.js') }}" defer></script>
+  <script src="{{ url_for('static', filename = 'js/backgroundSettings.js') }}" defer></script>
+  <script src="{{ url_for('static', filename = 'js/footerRedirects.js') }}" defer></script>
+</head>
+
+<body>
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <h1>Anveshan Poster Reveal</h1>
+  <h2>Join Us for the poster reveal in Seminar hall 2 at 3rd March 12:55pm</h2>
+  <footer>
+    <!-- Footer -->
+    <div class="main">
+      <div class="up">
+        <button class="card1">
+          <img src="{{ url_for('static', filename='assets/images/instagram.png') }}" alt="Instagram Icon">
+        </button>
+        <button class="card2">
+          <img src="{{ url_for('static', filename='assets/images/phone.png') }}" alt="Phone Icon">
+        </button>
+      </div>
+      <div class="down">
+        <button class="card3">
+          <img src="{{ url_for('static', filename = 'assets/images/whatsapp.png') }}" alt="Whatsapp Icon">
+        </button>
+        <button class="card4">
+          <img src="{{ url_for('static', filename='assets/images/mail.png') }}" alt="Mail Icon">
+        </button>
+      </div>
+    </div>
+    <!-- Footer Logo and Copyright -->
+    <img src="{{ url_for('static', filename = 'assets/logos/jss-logo.png') }}" alt="JSSATE Logo" id="jss-footer-logo">
+    <img src="{{ url_for('static', filename = 'assets/logos/anveshan-logo-v1.png') }}" alt="Anveshan Logo"
+      id="anveshan-footer-logo">
+    <p id="copyright-anveshan">&copy; 2025 JSS Anveshan. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>

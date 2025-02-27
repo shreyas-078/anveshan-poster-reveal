@@ -1,0 +1,203 @@
+/* ---- footer ---- */
+
+footer {
+  border: 1px solid white;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  gap: 3rem;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+#anveshan-footer-logo {
+  width: 8%;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+#jss-footer-logo {
+  width: 5%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card2 {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card3 {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card4 {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card2 img,
+.card1 img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-top: 40%;
+}
+
+.card4 img,
+.card3 img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-bottom: 40%;
+}
+
+.card1 img,
+.card3 img {
+  margin-left: 40%;
+}
+
+.card2 img,
+.card4 img {
+  margin-right: 40%;
+}
+
+.card4:hover img,
+.card1:hover img,
+.card3:hover img,
+.card2:hover img {
+  filter: invert(1);
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #1877f2;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #00ff00;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #FF0004;
+}
+
+/*--- copyright text ---*/
+
+#copyright-anveshan {
+  font-family: "VT323", serif;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 20vh;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .card1 img,
+  .card2 img,
+  .card3 img,
+  .card4 img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .main {
+    width: 40%;
+  }
+
+  #anveshan-footer-logo {
+    display: none;
+  }
+
+  #jss-footer-logo {
+    display: none;
+  }
+
+  #copyright-anveshan {
+    font-size: 1.2rem;
+  }
+}

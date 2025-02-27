@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/airnt');
+
+body {
+  height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: 'Airnt', sans-serif;
+
+}
+
+h1 {
+  font-size: 8rem;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}

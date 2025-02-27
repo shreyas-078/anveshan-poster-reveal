@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 0 1rem;
+  position: relative;
+}
+
+/* ---- particles canvas ---- */
+
+canvas {
+  display: block;
+}
+
+/* ---- particles container ---- */
+
+#particles-js {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
